@@ -1,0 +1,28 @@
+.error{
+    color: red;
+    width: max-content;
+}
+
+form{
+    width: 100%;
+    padding-bottom: 3%;
+    width: 30px;
+    margin-top: 40px;
+    margin-left: 100px;
+    color: green;
+    font-weight: bolder;
+}
+
+.errores{
+    width: max-content;
+}
+
+h1{
+    text-align: center;
+    margin-top: 320px;
+    color: green;
+}
+
+div{
+    margin-bottom: 15px;
+}

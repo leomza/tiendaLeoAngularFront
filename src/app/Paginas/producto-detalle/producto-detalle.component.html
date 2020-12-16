@@ -1,0 +1,10 @@
+<div class="card">
+    <div *ngIf = "productos?.image_path">
+        <img src="{{productos?.image_path}}" alt="Foto {{productos?.nombre}}" style="width:100%">
+    </div>
+    <h1>Descripcion: {{productos?.descripcion | tipoOracion}}</h1>
+    <h1>Categoria: {{productos?.categoria.nombre | tipoOracion}}</h1>
+    <h1>Stock: {{productos?.stock}}</h1>
+</div>
+
+<a mat-raised-button color="primary" routerLink="/catalogo">Atras</a>

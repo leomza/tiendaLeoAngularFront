@@ -1,0 +1,8 @@
+<div class="card">
+  <div *ngIf = "info.image_path">
+    <img src="{{info.image_path}}" alt="Foto de {{info.nombre}}" style="width:100%">
+  </div>
+  <h1>{{info.nombre | titlecase}}</h1>
+  <p class="price">{{info.precio | currency}}</p>
+  <p><button mat-raised-button color="primary" (click)="carrito()">Comprar</button></p>
+</div>

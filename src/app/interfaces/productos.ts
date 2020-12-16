@@ -12,7 +12,8 @@ export interface Producto {
         _id: string;
         nombre: string;
         __v? : number
-            }
+            };
+    image_path?:string;
 }
 
 export interface ProductoPaginado {

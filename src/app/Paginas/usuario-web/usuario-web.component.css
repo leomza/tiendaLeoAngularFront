@@ -1,0 +1,23 @@
+div{
+    margin-top: 40px;
+    margin-left: 100px;
+    padding-bottom: 10%;
+    color: green;
+}
+
+h1{
+    text-align: center;
+    margin-top: 320px;
+    color: green;
+}
+
+mat-card{
+    width: 50%;
+    margin-bottom: 15px;
+    color: green;
+}
+
+p{
+    color: black;
+    display: -webkit-inline-box;
+}

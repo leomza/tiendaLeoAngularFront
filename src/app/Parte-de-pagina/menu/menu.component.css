@@ -1,0 +1,14 @@
+div{
+    padding-left: 3%;
+    background-color: wheat;
+    border-radius: 60px 60px 10px 10px;
+    -moz-border-radius: 60px 60px 10px 10px;
+    -webkit-border-radius: 60px 60px 10px 10px;
+    border: 0px solid #000000;
+}
+
+button{
+    background-color: teal;
+    margin: 10px;
+    margin-left: 100px;   
+}

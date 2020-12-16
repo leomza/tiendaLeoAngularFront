@@ -1,0 +1,8 @@
+<div class="contenedor">
+<div class="individual" *ngFor="let producto of productos">
+    <app-producto
+     [info]="producto"
+    ></app-producto>
+    <button mat-raised-button color="primary" routerLink="/productos/{{producto._id}}">Más detalles</button>
+</div>
+</div>

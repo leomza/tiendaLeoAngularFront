@@ -1,0 +1,16 @@
+.contenedor{
+    display: -webkit-inline-flex;
+    margin-top: 400px;
+    margin-left: 100px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.individual{
+    padding-right: 100px;
+    align-items: center;
+}
+
+button{
+    margin-left: 40px;
+}
